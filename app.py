@@ -1,19 +1,3 @@
-"""
-ANALISADOR DE SENTIMENTOS - VERSÃO FINAL
-----------------------------------------
-Recursos:
-- usa dicionário local como base
-- usa IA para entender o contexto da frase
-- detecta melhor frases como:
-  "Nada do que eu faço parece dar certo no final."
-  "Pequenos passos levam a grandes conquistas."
-  "Você tem uma força interior maior do que imagina."
-- salva o dicionário em JSON
-- salva a configuração da IA em JSON
-- funciona melhor quando virar .exe
-- mostra resultado bonito e simples para leigos
-"""
-
 import copy
 import json
 import re
